@@ -34,7 +34,7 @@ const connectToDatabase = async () => {
 connectToDatabase();
 
 app.get('/', (req, res) => {
-  res.send({ success: 'Hello World' });
+  res.send({ success: 'Hello Worrld' });
 });
 
 const PORT = process.env.PORT || 3001;
