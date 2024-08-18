@@ -92,7 +92,7 @@ app.delete('/delete-task/:id', async (req, res) => {
 });
 
 app.get("/",(res,req) => {
-    res.send("Hello World")
+    res.send("Hello World!")
 })
 
 const PORT = process.env.PORT || 3001;
