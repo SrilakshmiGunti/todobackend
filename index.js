@@ -53,7 +53,7 @@ app.get('/tasks', async (req, res) => {
     res.status(200).send(tasks);
   } catch (err) {
     console.error(`Error fetching tasks: ${err}`);
-    res.status(500).send({ error: 'Error fetching tasks' });
+    res.status(500).send({ error: 'Error fetching the tasks' });
   }
 });
 
