@@ -91,6 +91,10 @@ app.delete('/delete-task/:id', async (req, res) => {
   }
 });
 
+app.get("/",(res,req) => {
+    res.send("Hello World")
+})
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
